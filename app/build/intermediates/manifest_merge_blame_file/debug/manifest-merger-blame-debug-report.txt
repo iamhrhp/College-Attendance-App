@@ -1,0 +1,231 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+10    //PROJECT MADE BY PARVEJ KHAN
+11
+12    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+14-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:26:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+15-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:27:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:8:5-72:19
+20        android:name="com.college.attendance.context.ApplicationContext"
+20-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:9:10-74
+21        android:allowBackup="true"
+21-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:10:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@drawable/ic_launcher"
+24-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:11:9-45
+25        android:label="@string/app_name"
+25-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:12:9-41
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity
+27-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:14:9-22:20
+28            android:name="com.college.attendance.activity.MainActivity"
+28-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:15:13-72
+29            android:label="@string/app_name" >
+29-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:16:13-45
+30            <intent-filter>
+30-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:17-69
+31-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:17-77
+33-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:23:10-26:20
+37            android:name="com.college.attendance.activity.LoginActivity"
+37-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:24:13-73
+38            android:label="@string/app_name" >
+38-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:25:13-45
+39        </activity>
+40        <activity
+40-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:27:10-30:20
+41            android:name="com.college.attendance.activity.MenuActivity"
+41-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:28:13-72
+42            android:label="@string/app_name" >
+42-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:29:13-45
+43        </activity>
+44        <activity
+44-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:31:10-34:20
+45            android:name="com.college.attendance.activity.AddFacultyActivity"
+45-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:32:13-78
+46            android:label="@string/app_name" >
+46-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:33:13-45
+47        </activity>
+48        <activity
+48-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:35:9-38:20
+49            android:name="com.college.attendance.activity.AddStudentActivity"
+49-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:36:13-78
+50            android:label="@string/app_name" >
+50-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:37:13-45
+51        </activity>
+52        <activity
+52-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:39:9-42:20
+53            android:name="com.college.attendance.activity.ViewFacultyActivity"
+53-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:40:13-79
+54            android:label="@string/app_name" >
+54-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:41:13-45
+55        </activity>
+56        <activity
+56-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:43:9-46:20
+57            android:name="com.college.attendance.activity.ViewStudentActivity"
+57-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:44:13-79
+58            android:label="@string/app_name" >
+58-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:45:13-45
+59        </activity>
+60        <activity
+60-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:47:9-50:20
+61            android:name="com.college.attendance.activity.TestActivity"
+61-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:48:13-72
+62            android:label="@string/app_name" >
+62-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:49:13-45
+63        </activity>
+64        <activity
+64-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:51:10-54:20
+65            android:name="com.college.attendance.activity.ViewStudentByBranchYear"
+65-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:52:13-83
+66            android:label="@string/app_name" >
+66-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:53:13-45
+67        </activity>
+68        <activity
+68-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:55:11-58:20
+69            android:name="com.college.attendance.activity.AddAttandanceSessionActivity"
+69-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:56:13-88
+70            android:label="@string/app_name" >
+70-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:57:13-45
+71        </activity>
+72        <activity
+72-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:59:10-62:20
+73            android:name="com.college.attendance.activity.AddAttendanceActivity"
+73-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:60:13-81
+74            android:label="@string/app_name" >
+74-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:61:13-45
+75        </activity>
+76        <activity
+76-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:63:10-66:20
+77            android:name="com.college.attendance.activity.ViewAttendanceByFacultyActivity"
+77-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:64:13-91
+78            android:label="@string/app_name" >
+78-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:65:13-45
+79        </activity>
+80        <activity
+80-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:67:10-70:20
+81            android:name="com.college.attendance.activity.ViewAttendancePerStudentActivity"
+81-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:68:13-92
+82            android:label="@string/app_name" >
+82-->C:\Users\HRHP\AndroidStudioProjects\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:69:13-45
+83        </activity>
+84
+85        <service
+85-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:31:13-84
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:32:13-37
+89            <meta-data
+89-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+90                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+90-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\da8c2859014046dc77185bbd221de0c7\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\656f611dbc8cf770787ebfbcc89887a7\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+93-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\656f611dbc8cf770787ebfbcc89887a7\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\656f611dbc8cf770787ebfbcc89887a7\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\6ff0e533a581d096991fc1712f579931\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\6ff0e533a581d096991fc1712f579931\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\6ff0e533a581d096991fc1712f579931\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+98        </service>
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+104
+105        <receiver
+105-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+106            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+106-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+108            android:exported="false" >
+108-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+109        </receiver>
+110
+111        <service
+111-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+112            android:name="com.google.android.gms.measurement.AppMeasurementService"
+112-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+114            android:exported="false" />
+114-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+115        <service
+115-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+116            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+116-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+119            android:permission="android.permission.BIND_JOB_SERVICE" />
+119-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\05d091edc94fbec54b63ff32c7417be6\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+123            android:authorities="com.example.androidattendancesystem.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\4add584b159a6f6c8766d094fd3bd7dc\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HRHP\.gradle\wrapper\dists\gradle-6.6\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+130    </application>
+131
+132</manifest>

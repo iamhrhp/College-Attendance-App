@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168108138802",
+    "firebase_url": "https://astha-clinic.firebaseio.com",
+    "project_id": "astha-clinic",
+    "storage_bucket": "astha-clinic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168108138802:android:d969826589d788eb75f72b",
+        "android_client_info": {
+          "package_name": "com.android.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168108138802-p21j8v4etg0537rkp446ntiki3nva9p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB654kwJ8jgM6pa8IJMrlbuOGGPhVvlwTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168108138802-p21j8v4etg0537rkp446ntiki3nva9p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
