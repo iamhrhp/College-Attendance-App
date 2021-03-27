@@ -24,7 +24,6 @@ faculty can register the number of students, class then register the number of s
 <h3 id="requirement" class="notes">Software Requirement</h3>
 <ul>
  	<li>Android Studio</li>
- 	<li>Latest Version</li>
  	<li>Internet Connection</li>
  	<li>Java</li>
 </ul>
